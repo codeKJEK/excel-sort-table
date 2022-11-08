@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-1.7.2.min.js"></script>
+    <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+    <link rel="stylesheet" href="excel-bootstrap-table-filter-style.css">
+    <title>excel bootstrap</title>
+</head>
+
+<body>
+    <table class="main-table">
+        <thead>
+            <tr>
+                <th>
+                    <div>
+                        <span>Date</span>
+                    </div>
+
+                </th>
+                <th>
+                    <div>
+                        <span>Company</span>
+                    </div>
+                </th>
+                <th>
+                    <div>
+                        <span>P/H Code</span>
+                    </div>
+                </th>
+                <th>
+                    <div>
+                        <span>Claim Number</span>
+                    </div>
+                </th>
+                <th>
+                    <div>
+                        <span>DOS</span>
+                    </div>
+                </th>
+                <th>
+                    <div>
+                        <span>LOB</span>
+                    </div>
+                </th>
+                <th>
+                    <div>
+                        <span>Member ID</span>
+                    </div>
+                </th>
+                <th>
+                    <div>
+                        <span>Provider Specialty</span>
+                    </div>
+                </th>
+                <th>
+                    <div>
+                        <span>User</span>
+                    </div>
+                </th>
+                <th>
+                    <div>
+                        <span>Worker</span>
+                    </div>
+                </th>
+                <th>
+                    <div>
+                        <span>Note</span>
+                    </div>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01/01/2022</td>
+                <td>C4HC</td>
+                <td>1010101</td>
+                <td>0101010</td>
+                <td>01/01/2022</td>
+                <td>Unknown 1</td>
+                <td>1000001</td>
+                <td>One Thing</td>
+                <td>Kurtis Kovel</td>
+                <td>Tupac</td>
+                <td>Note no.1</td>
+            </tr>
+            <tr>
+                <td>02/02/2022</td>
+                <td>C4HC</td>
+                <td>2020202</td>
+                <td>0202020</td>
+                <td>02/02/2022</td>
+                <td>Unknown 2</td>
+                <td>2000002</td>
+                <td>Two Things</td>
+                <td>Kurtis Kovel</td>
+                <td>Biggie</td>
+                <td>Note no.2</td>
+            </tr>
+            <tr>
+                <td>03/03/2022</td>
+                <td>C4HC</td>
+                <td>3030303</td>
+                <td>0303030</td>
+                <td>03/03/2022</td>
+                <td>Unknown 3</td>
+                <td>3000003</td>
+                <td>Three Things</td>
+                <td>Kurtis Kovel</td>
+                <td>Jay-Z</td>
+                <td>Note no.3</td>
+            </tr>
+            <tr>
+                <td>04/04/2022</td>
+                <td>C4HC</td>
+                <td>4040404</td>
+                <td>0404040</td>
+                <td>04/04/2022</td>
+                <td>Unknown 4</td>
+                <td>4000004</td>
+                <td>Four Things</td>
+                <td>Kurtis Kovel</td>
+                <td>Nas</td>
+                <td>Note no.4</td>
+            </tr>
+            <tr>
+                <td>05/05/2022</td>
+                <td>C4HC</td>
+                <td>5050505</td>
+                <td>0505050</td>
+                <td>05/05/2022</td>
+                <td>Unknown 5</td>
+                <td>5000005</td>
+                <td>Five Things</td>
+                <td>Kurtis Kovel</td>
+                <td>Snoop Dogg</td>
+                <td>Note no.5</td>
+            </tr>
+            <tr>
+                <td>06/06/2022</td>
+                <td>C4HC</td>
+                <td>6060606</td>
+                <td>0606060</td>
+                <td>06/06/2022</td>
+                <td>Unknown 6</td>
+                <td>6000006</td>
+                <td>Six Things</td>
+                <td>Kurtis Kovel</td>
+                <td>Snoop Dogg</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio odit architecto porro? Eos nobis
+                    dolore officiis quos, placeat sequi! Delectus corporis eius odit alias esse!</td>
+            </tr>
+
+        </tbody>
+        <tbody hidden>
+            <tr>
+                <td>07/07/2022</td>
+                <td>C4HC</td>
+                <td>7070707</td>
+                <td>0707070</td>
+                <td>07/07/2022</td>
+                <td>Unknown 7</td>
+                <td>7000007</td>
+                <td>One Thing</td>
+                <td>Kurtis Kovel</td>
+                <td>Tupac</td>
+                <td>Note no.7</td>
+            </tr>
+            <tr>
+                <td>08/08/8088</td>
+                <td>C4HC</td>
+                <td>8080808</td>
+                <td>0808080</td>
+                <td>08/08/8088</td>
+                <td>Unknown 8</td>
+                <td>8000008</td>
+                <td>Two Things</td>
+                <td>Kurtis Kovel</td>
+                <td>Biggie</td>
+                <td>Note no.8</td>
+            </tr>
+
+
+        </tbody>
+    </table>
+
+    <script src="excel-bootstrap-table-filter-bundle.js"></script>
+    <script>
+        $(".main-table").excelTableFilter();
+    </script>
+</body>
+
+</html>
