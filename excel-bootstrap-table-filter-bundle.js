@@ -407,7 +407,7 @@ function checkOrder() {
     if (headerSortAttribute === "a-to-z") {
       currentOrder = "a-to-z";
     } else if (headerSortAttribute === "z-to-a") {
-      currentOrder = "z-to-acd";
+      currentOrder = "z-to-a";
     }
   });
   return currentOrder;
